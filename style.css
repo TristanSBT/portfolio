@@ -1,0 +1,15 @@
+.imageAcceuil {
+    width: 250px;
+}
+
+.bouton1 {
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+}
+
+.bouton1:hover {
+    color: black;
+    background-color: aqua;
+    cursor: pointer;
+    border-color: beige;
+}
