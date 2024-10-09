@@ -1,15 +1,119 @@
-.imageAcceuil {
-    width: 250px;
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
-.bouton1 {
-    padding: 10px 10px 10px 10px;
-    border-radius: 8px;
-}
-
-.bouton1:hover {
+a{
     color: black;
-    background-color: aqua;
-    cursor: pointer;
-    border-color: beige;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.PrenomHeader{
+    padding-left: 20px;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.NavHEaderAcceuil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-style: bold;
+    font-size: 23px;
+}
+
+.ChildNavHeaderAcceuil{
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.infoAcceuil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textLeftAcceuil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.topTextLeftAcceuil{
+    font-weight: 900;
+    font-size: 45px;
+    margin: 0px;
+}
+
+.bottomTextLeftAcceuil{
+    font-weight: 800;
+    font-size: 35px;
+    margin: 0px;
+}
+
+.imageRightAccueil{
+    margin: 40px;
+    width: 300px;
+    border-radius: 75px;
+}
+
+.divButtonAccueil{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonAccueil{
+    border-radius: 40px;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.mainDivProjet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.boutonProjet{
+    border-radius: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 600;
+}
+
+.imagePorjet{
+    width: 400px;
+    border-radius: 30px;
+}
+
+@media (max-width: 1024px){
+
 }
