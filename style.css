@@ -10,6 +10,16 @@ a{
     font-weight: 900;
     font-style: normal;
     text-decoration: none;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+button{
+    transition: transform 0.3s ease;
+}
+
+text{
+    transition: transform 0.3s ease;
 }
 
 .Header{
@@ -23,7 +33,7 @@ a{
 }
 
 .PrenomHeader{
-    padding-left: 20px;
+    margin-left: 20px;
     font-size: 30px;
     font-style: bold;
 }
@@ -38,8 +48,8 @@ a{
 }
 
 .ChildNavHeaderAcceuil{
-    padding-left: 100px;
-    padding-right: 50px;
+    margin-left: 100px;
+    margin-right: 50px;
 }
 
 .infoAcceuil{
@@ -47,6 +57,7 @@ a{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .textLeftAcceuil{
@@ -60,18 +71,21 @@ a{
     font-weight: 900;
     font-size: 45px;
     margin: 0px;
+    transition: transform 0.3s ease;
 }
 
 .bottomTextLeftAcceuil{
     font-weight: 800;
     font-size: 35px;
     margin: 0px;
+    transition: transform 0.3s ease;
 }
 
 .imageRightAccueil{
     margin: 40px;
     width: 300px;
     border-radius: 75px;
+    transition: transform 0.3s ease;
 }
 
 .divButtonAccueil{
@@ -112,8 +126,84 @@ a{
 .imagePorjet{
     width: 400px;
     border-radius: 30px;
+    filter: blur(3px);
+    transition: transform 0.5s ease;
 }
 
-@media (max-width: 1024px){
+.topTextLeftAcceuil:hover{
+    transform: scale(1.2);
+    color: #6B2310;
+}
 
+.bottomTextLeftAcceuil:hover{
+    transform: scale(1.2);
+    color: #6B2310;
+}
+
+.imageRightAccueil:hover{
+    transform: scale(1.2);
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}
+
+.TitleProject:hover{
+    color: #6B2310;
+}
+
+.imagePorjet:hover{
+    filter: blur(0);
+    transform: scale(1.1);
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px){
+    .Header{
+        font-size: 20px;
+    }
+
+    .ChildNavHeaderAcceuil{
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 20px;
+    }
+
+    .infoAcceuil{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textLeftAcceuil{
+        font-size: 30px;
+    }
+
+    .mainDivProjet{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imagePorjet{
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 425px){
+    .textLeftAcceuil{
+        font-size: 30px;
+    }
 }
